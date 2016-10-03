@@ -56,7 +56,7 @@ You can push elements to the right a certain number of columns using the `push-[
 
 This example is reproduced in `example.html`, which is hosted [here](https://jdormit.github.io/responsive-grid/example.html).
 
-If you want to play around with it yourself, check out the [JSFiddle](https://jsfiddle.net/x3f56bLp/4/).
+If you want to play around with it yourself, check out the [JSFiddle](https://jsfiddle.net/hfndm0cf/).
 
 # Installation
 `grid.css` is served on Github pages. To include it in your html file, use:
