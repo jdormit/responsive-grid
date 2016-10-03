@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./grid.css">
+    <style>
+      div.row div {
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resize your browser window to experiment!</h1>
+    <div class="row">
+      <div class="col-12">
+        This text will take up the whole row on all screen sizes.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-m-12 col-6">
+        This text will take up a whole row on screen sizes < 768px,
+      </div>
+      <div class="col-m-12 col-6">
+        but only half a row on larger screens.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-s-12 col-m-6 col-3">
+        This text will take up a whole row on screen sizes < 414px,
+      </div>
+      <div class="col-s-12 col-m-6 col-3">
+        half a row on screen sizes between 415px and 768px,
+      </div>
+      <div class="col-s-12 col-m-6 col-3">
+        and a quarter of a row
+      </div>
+      <div class="col-s-12 col-m-4 col-3">
+        on larger screens.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 push-4">
+        This text will take up the middle 4 columns on all screens.
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-2 push-2 col-m-3 push-m-1 col-s-4">
+        This text will be 2 columns wide separated by 2 empty columns on large screens,
+      </div>
+      <div class="col-2 push-2 col-m-3 push-m-1 col-s-4">
+        3 columns wide separated by 1 empty column on medium screens,
+      </div>
+      <div class="col-2 push-2 col-m-3 push-m-1 col-s-4">
+        and 4 columns wide with no separation on small screens.
+      </div>
+    </div>
+  </body>
+</html>
