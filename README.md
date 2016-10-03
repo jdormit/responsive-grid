@@ -32,7 +32,7 @@ You can push elements to the right a certain number of columns using the `push-[
     <div class="col-s-12 col-m-6 col-3">
         and a quarter of a row
     </div>
-    <div class="col-s-12 col-m-4 col-3">
+    <div class="col-s-12 col-m-6 col-3">
         on larger screens.
     </div>
 </div>
