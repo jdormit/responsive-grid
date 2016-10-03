@@ -69,4 +69,4 @@ To download the file (in terminal):
 
 `wget https://jdormit.github.io/responsize-grid/grid.css`
 
-Or simply <a href="https://jdormit.github.io/responsive-grid/grid.css" download>download from here</a>.
+Or simply <a href="https://jdormit.github.io/responsive-grid/grid.css" target="_blank" download>download from here</a>.
