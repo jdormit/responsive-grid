@@ -37,7 +37,7 @@ You can push elements to the right a certain number of columns using the `push-[
     </div>
 </div>
 <div class="row">
-    <div class="col-4 push-4">
+    <div class="col-s-4 push-s-4">
         This text will take up the middle 4 columns on all screens.
     </div>
 </div>
